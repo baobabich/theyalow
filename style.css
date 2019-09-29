@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+   background: no-repeat url('../theyalow/assets/Layer 20.png');
+   margin: 0 auto;
+   width: 1300px;
+   height: 1136px;
+   background-size: contain;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    height: 1136px;
+    width: 1023px;
+    border: 1px solid transparent;
+}
+
+.header-logo_item {
+   margin-top: 27px;
+   margin-left: 2px;
+}
+
+.header-nav_main {
+    margin-top: 62px;
+    margin-left: 558px;
+}
+
+.layer3, .layer2, .nav_main-item {
+    position: absolute;
+}
+
+.nav_main-item {
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+}
+
+.nav_main-item table {
+    border-collapse: collapse;
+    width: 453px;
+    height: 41px;
+}
+
+.nav_main-item .about,
+.nav_main-item .service {
+    border-right: 1px solid #b99403;
+}
+
+.nav_main-item a {
+    
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+}
+
+.nav_main-item a {
+    text-decoration: none;
+}
+    
+.layer2 {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.layer3 {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.header-logo_item img {
+    position: absolute;
+}
+
+.header-logo_item span {
+    position: absolute;
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    text-align: center;
+    padding-top: 26px;
+    padding-left: 93px;
+}
+
+#logo1 {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+#logo2 {
+    padding-left: 2px;
+}
+
+#shape5 {
+    padding-left: 39px;
+}
+
+#shape6 {
+    padding-left: 13px;
+}
+
+#shape7 {
+    padding-left: 16px;
+}
+
+@font-face {
+font-family: 'Segoe WP';
+font-style: normal;
+font-weight: normal;
+src: local('Segoe WP'), url('SegoeWP.woff') format('woff');
+}
+
+.player {
+    margin-top: 164px;
+    margin-left: -140px;
+}
