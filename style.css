@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    height: 1847px;
 }
 
 .header {
@@ -115,10 +116,110 @@ body {
 font-family: 'Segoe WP';
 font-style: normal;
 font-weight: normal;
-src: local('Segoe WP'), url('SegoeWP.woff') format('woff');
+src: local('Segoe WP'), url('../theyalow/fonts/SegoeWP.woff') format('woff');
 }
+
+@font-face {
+font-family: 'Asap-Regular';
+src: local('Asap-Regular'), url('..//theyalow/fonts/Asap-Regular.otf') format("opentype");
+}
+
+@font-face {
+font-family: 'Segoe UI';
+src: local('Segoe UI'), url('..//theyalow/fonts/Segoe UI.ttf') format("truetype");
+}
+
+@font-face {
+font-family: 'PT Sans';
+src: local('PT Sans'), url('..//theyalow/fonts/PTC55F.ttf') format("truetype");
+}
+
 
 .player {
     margin-top: 164px;
     margin-left: -140px;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.player img {
+    float: left;
+}
+.player p {
+    position: absolute;
+    margin: 0;
+    padding-top: 82px;
+    padding-left: 749px;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: #f5c506;
+    font-family: "Asap-Regular";
+    font-weight: 400;
+    text-align: center;
+   
+}
+
+.main-icon {
+    background: no-repeat url("..//theyalow/assets/Layer 7.png");
+    background-size: contain;
+    margin: -571px auto 0px;
+    width: 1300px;
+    height: 212px;
+}
+
+
+.main-icon-wrapper {
+    width: 1020px;
+    height: 212px;
+    margin: 0 auto;
+}
+
+
+.main-icon-wrapper_icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-icon-wrapper_icons a {
+    text-decoration: none;
+    font-size: 27px;
+    flex-basis: 340px;
+    height: 212px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-top: transparent;
+    border-bottom: transparent;
+    
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    background: no-repeat url("..//theyalow/assets/Layer 11.png");
+    background-size: contain;
+    margin: 0 auto;
+    width: 1300px;
+    height: 509px;
+    
+}
+
+.section_1-wrapper {
+    margin-top: 42px;
+    width: 1020px;
+    height: 509px;
+}
+
+.section_1-wrapper--content h2 {
+   font-size: 37px;
+   letter-spacing: 0px;
+   color: #ffffff;
+   font-family: "PT Sans";
+   font-weight: 400;
 }
